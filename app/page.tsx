@@ -14,11 +14,11 @@ export default function Home() {
           <img src="/LEARNAI.png" alt="" className="w-full lg:w-[200px] " />
         </nav>
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Transform Your Career with AI</h2>
+          <h2 className="text-3xl font-bold text-blue-600 mb-4">Transform Your Career with AI</h2>
           <p className="text-gray-600 mb-6">
             Join our comprehensive AI training program designed for non-technical professionals. Gain the skills you need to thrive in the AI era.
           </p>
-          <p className="text-blue-600 font-medium">Take Free Assessment</p>
+          <div style={{ height: 60 }} />
         </div>
 
         <AssessmentForm />
